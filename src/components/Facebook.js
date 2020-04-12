@@ -36,9 +36,9 @@ const Facebook = () => {
     if(isLoggedIn){
         loading = false;
         fbContent = <div className='container'>
-            <div className="container">
-                <img src={picture} alt='' className='responsive-img'/>
-            </div>
+
+            <img src={picture} alt='' className='responsive-img'/>
+
             <p className="flow-text">Welcome {name}</p>
             <span className="red-text">{email}</span>
         </div>
